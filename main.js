@@ -8,6 +8,6 @@ button.addEventListener("click", function () {
 
 let btn = document.querySelector(".reset");
 btn.addEventListener("click", function () {
-  reset = 0;
-  counterNomber.innerHTML = reset;
+  counter = 0;
+  counterNomber.innerHTML = counter;
 });
